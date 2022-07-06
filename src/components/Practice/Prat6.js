@@ -1,6 +1,7 @@
 import React from "react";
 
 const Prat6 = () => {
+    //references 
     // ex1
 //   let obj = {
 //     name: "virat",
