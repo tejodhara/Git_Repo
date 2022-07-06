@@ -1,0 +1,64 @@
+.images{
+    /* box-shadow: -10px -10px 5px 2px black; */
+    box-shadow: inset 10px 10px 5px 2px black;
+}
+
+.div2{
+    display: grid;
+    height: 200px;
+    width: 500px;
+    /* box-shadow: 10px 10px 5px 2px greenyellow, -10px -10px 5px 2px  greenyellow; */
+    box-shadow: inset 5px 5px 3px 2px greenyellow,  5px 5px 8px 1px gray;
+    align-items: center;
+
+    background: -moz-repeating-linear-gradient(blue,green);
+}
+
+.navBag{
+    padding: 50px 0;
+    min-width: 500px;
+}
+.navBag ul{
+    background: linear-gradient(90deg,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 25%,rgba(255,255,255,0) 75%,rgba(255,255,255,0) 100%);
+    box-shadow: 0 0 25px rgba(0,0,0,0.1), inset 0 0 1px rgba(255,255,255,0.6);
+    display: inline-block;
+}
+.navBag ul li{
+    display: inline-block;
+}
+.navBag ul li a{
+    padding: 10px;
+    /* color: white; */
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    /* text-shadow: -5px -5px 3px brown,10px 10px 3px black; */
+    display: block;
+    transition: all;
+    /* animation-duration: 20s; */
+}
+/* .navBag ul li a:first-child{
+    color: antiquewhite;
+} */
+/* .par1::-moz-selection{
+    background-color: yellow;
+} */
+.par1::selection {
+    color: yellow;
+    backface-visibility: inherit;
+}
+
+.navBag ul li:hover{
+    border-bottom: 2px solid black;
+    border-bottom-width: 1px;
+    animation-duration: 20s;
+}
+
+/* @font-face {
+    font-family: Delicious;
+    src: url('Delecious-Roman.otf');
+} */
+
+
+
+

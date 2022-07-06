@@ -1,0 +1,72 @@
+.box1{
+    margin-top: 20px;
+    margin-left: 100px;
+    display: grid;
+    /* justify-content: center;
+    align-items: center; */
+    place-items: center;
+    width: 1180px;
+    height:100px;
+
+}
+.h1font{
+    font-size: 60px;
+    background: linear-gradient(to left,
+    indigo,
+    blue,
+    yellow,
+    orange,
+    red);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 0 1px 3px rgba(255, 99, 71, 0.4), 0 1px 2px rgba(255, 99, 71, 0.4);
+    /* transition: all 0.3s cubic-bezier(.25,.8,.25,1);  */
+    /* text-shadow: 0 0 3px , 0 0 5px ; */
+    /* background: radial-gradient(#e66465, #9198e5); */
+    position: relative;
+    /* left: 50%; */
+    width: 100%;
+    text-align: center;
+}
+.h1font:hover{
+    /* text-transform: uppercase; */
+    background: linear-gradient(to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.inputfield{
+    width: 450px;
+    height: 35px;
+    border-radius: 5px;
+    
+}
+
+.navB{
+    float: right;
+}
+/* .navB h6{
+    display: inline-block;
+} */
+.iptfield{
+    width: 337px;
+    height: 44px;
+    border-radius: 22px;
+}
+
+.logos{
+    display: grid;
+    place-items: center;
+    margin: 10px;
+    border-spacing: 10px;
+}
+
+.totalb{
+
+}
