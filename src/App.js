@@ -35,6 +35,11 @@ import Redux_comp from './components/redux_1/Redux_comp';
 import T1 from './components/Practice/T1';
 import Cal from './components/Practice/Cal';
 import Prat6 from './components/Practice/Prat6';
+import Counter from './components/Practice/Counter';
+import Try1 from './components/Prat1/Try1';
+import Home from './Crud/Home';
+import Create from './Crud/Create';
+import Edit from './Crud/Edit';
 
 
 
@@ -84,6 +89,18 @@ function App() {
       <Prat6 />
       {/* <Cal /> */}
       {/* <Redux_comp /> */}
+      {/* <Counter /> */}
+      {/* <Try1 /> */}
+
+
+        
+     <Router>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/create' element={<Create/>}/>
+        <Route path='/edit' element={<Edit/>}/>
+      </Routes>
+    </Router>
     </div>
   );
 }

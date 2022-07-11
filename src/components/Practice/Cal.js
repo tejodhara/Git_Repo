@@ -7,7 +7,7 @@ const Cal = () => {
   return (
     <div>
         <h1>Cal</h1>
-        <div className='box1'>
+        <div className='box1,uni'>
         {/* value={data} */}
             <div>
                 <input type='text' name='data' onClick={()=>{}} style={{width:'70px'}}/>
